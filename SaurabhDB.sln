@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SaurabhDB", ".", "{B2ACCE06-1D72-45C1-9583-CA99425C9201}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{BA76DB9A-D1DC-4B64-8D9F-77B3C0B01034}|DBAccess.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/SaurabhDB"
+		Debug.AspNetCompiler.PhysicalPath = "..\SaurabhDB\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SaurabhDB\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SaurabhDB"
+		Release.AspNetCompiler.PhysicalPath = "..\SaurabhDB\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SaurabhDB\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1396"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBAccess", "DBAccess\DBAccess.csproj", "{BA76DB9A-D1DC-4B64-8D9F-77B3C0B01034}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2ACCE06-1D72-45C1-9583-CA99425C9201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2ACCE06-1D72-45C1-9583-CA99425C9201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2ACCE06-1D72-45C1-9583-CA99425C9201}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2ACCE06-1D72-45C1-9583-CA99425C9201}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BA76DB9A-D1DC-4B64-8D9F-77B3C0B01034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA76DB9A-D1DC-4B64-8D9F-77B3C0B01034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA76DB9A-D1DC-4B64-8D9F-77B3C0B01034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA76DB9A-D1DC-4B64-8D9F-77B3C0B01034}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
